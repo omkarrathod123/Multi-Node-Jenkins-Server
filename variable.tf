@@ -4,9 +4,9 @@ variable "region" {
 }
 variable "user_data_main" {
   type = string
-  default = "./Shell Script/jenkins.sh"
+  default = "./ShellScripts/jenkins.sh"
 }
 variable "user_data_node" {
   type = string
-  default = "./Shell Script/java.sh"
+  default = "./ShellScripts/java.sh"
 }
