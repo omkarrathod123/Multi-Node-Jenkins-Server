@@ -1,4 +1,4 @@
-# 🚀 Terraform AWS EC2 Instance Provisioner
+# 🚀 Multi Node Jenkins server with Terraform
 
 A reusable Terraform module that launches an EC2 instance with dynamic tagging and initialization scripting capabilities. Designed for cloud automation workflows and infrastructure-as-code best practices.
 
@@ -42,6 +42,7 @@ usermod -a -G root jenkins
 ```
 
 ## 🗂️ Folder Structure
+```tree
 .
 ├── Repo/
 │   └── EC2/
@@ -54,3 +55,4 @@ usermod -a -G root jenkins
 └── main.tf
 └── provider.tf
 └── variable.tf
+```
